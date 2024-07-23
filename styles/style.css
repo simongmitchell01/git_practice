@@ -172,7 +172,7 @@ body {
 
 
 /* small screen width styles */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
     /* all-round font resize? */
     html {
         font-size: 15px;
