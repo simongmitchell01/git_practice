@@ -1,0 +1,191 @@
+/* reset */
+h1,h2,h3,h4,h5,h6,p,span,em,strong,a {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* universal styles */
+html {
+    background-color: rgb(26, 49, 79);
+    font-size: 22px;
+}
+
+body {
+    background-color: #fbf7f7;
+
+    width: 96%;
+    margin: 2% auto 0;
+
+    max-width: 1200px;
+}
+
+
+
+/* banner styles */
+.banner h1 {
+    font-family: Inconsolata;
+
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding: 2% 0;
+    
+    background-image: url("../images/nomnom-banner.png");
+    background-size: 100% 100%;
+    color: #fbf7f7;
+}
+
+
+/* author statement meta-styles */
+.author-statement {
+    padding: 3% 0 2%;
+    
+    position: relative;
+
+    overflow: hidden;
+
+    background-image: url("../images/canvas.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.content {
+    width: 90%;
+    margin: 0 10% 0 0;
+}
+
+.art-stripe {
+    position: absolute;
+    right: 0;
+    top: -5%;
+    width: 10%;
+    height: 200%;
+
+    background-image: url("../images/book-border.png");
+    background-size: 100% 100%;
+}
+
+
+/* author statement welcome blurb styles */
+.welcome-blurb {
+    width: 80%;
+    margin: 0 auto;
+
+    font-family: "Just Another Hand", serif;
+}
+
+.welcome-blurb h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    
+    margin: 0 0 2rem 0;
+}
+
+.welcome-blurb p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.welcome-blurb .love-economy-title {
+    font-style: italic;
+}
+
+.image-container {
+    width: 40%;
+    float: right;
+
+    background-color: white;
+
+    border: 10px solid #555;
+    margin: 0 0 4% 6%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+.image-container p {
+    padding: 2% 5%;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+
+    font-family: serif;
+}
+
+
+/* signature styles */
+.signature {
+    width: 80%;
+    margin: 2rem auto 2rem;
+    clear: both;
+}
+
+.signature p {
+    font-family: "Just Another Hand", serif;
+    font-size: 2rem;
+}
+
+.signature img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* postscript styles */
+.postscript {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    font-family: "Just Another Hand", serif;
+}
+
+.PS {
+    font-size: 5rem;
+}
+
+.postscript p {
+    font-size: 1.5rem;
+}
+
+
+/* footer styles */
+.footer {
+    text-align: center;
+    font-size: 1rem;
+
+    padding: 5% 0;
+
+    background-color: rgb(26, 49, 79);
+    color: white;
+}
+
+
+
+
+/* small screen width styles */
+@media only screen and (max-width: 700px) {
+    /* all-round font resize? */
+    html {
+        font-size: 15px;
+    }
+
+
+    /* image on top of welcome blurb */
+    .image-container {
+        width: 80%;
+        float: none;
+        margin: 0 auto 2rem;
+    }
+
+}
+
+
